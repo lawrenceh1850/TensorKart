@@ -1,4 +1,4 @@
-samples/**
+# samples/**
 MarioKart64.z64
 *.pyc
 *.npy
