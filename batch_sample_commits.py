@@ -8,3 +8,4 @@ for folder in glob.glob("samples/*"):
         os.system(f"git add {folder}")
         os.system(
             f"git commit -am \"Batch commit of sample data {folder}\"")
+        os.system("git push")
